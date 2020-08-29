@@ -1,0 +1,4 @@
+Steps to execute -->
+1. Start the Cmd and run npm install request.
+2. Run npm i stopword.
+3. Run node code.js. 
