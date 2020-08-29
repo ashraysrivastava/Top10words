@@ -1,0 +1,19 @@
+
+Problem Statement : Find top 10 words from the document and fetch the words synonyms,
+                    pos,frequecy in document using dictionary.Yandex API.
+                    
+Flow of Code:
+
+1.Fetch the source data from "http://norvig.com/big.txt".
+2.Perform text-preprocessing i.e. stopwords removal using stopword library.
+3.Extract the top 10 words as per their frequecy from the document.
+4.Process each word to get its synonyms,pos using dictionary.Yandex API.
+5.print the final JSON output for each word.
+
+Functions Explaination: 
+1. data() --> to fetch the source data.
+2. wordFreq() --> function to extract top 10 words as per their frequecy from the document.
+3. getwordsdetails() --> function to fetch response from the dictionary.Yandex API.
+4. extractpos() --> function to create the final JSON output which needs to be displayed.
+5. fetchdata() --> main function to process the data.
+
